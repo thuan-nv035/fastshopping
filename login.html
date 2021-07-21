@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast shopping - Login/Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e3bacf7186.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://registry.npmjs.org/bootstrap-icons/-/bootstrap-icons-1.5.0.tgz">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+
+</head>
+<body>
+      <!-- start header -->
+
+      <section class="header">
+        <section class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-8">
+                        <div class="header__top-left">
+                            <p>
+                                Free Shipping on orders over $500 . Any Question ? (+91)9876543210
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                        <div class="header__top-right">
+                            <ul class="header__top-right-list">
+                                <li class="search">
+                                    <a href="" class="search-input header__top-right-list-items " >
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                    <div class="search-box">
+                                        <form action="">
+                                            <input class="search-box-input" type="text" placeholder="Find your favorite product">
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="global">
+                                    <a href="" class="header__top-right-list-items">
+                                        <i class="fas fa-globe"></i>
+                                    </a>
+                                    <div class="global-form">
+                                        <div class="global-language">
+                                            <ul>
+                                                <li class="active"><a href="">En</a></li>
+                                                <li><a href="">Bn</a></li>
+                                                <li><a href="">Sa</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="global-current">
+                                            <ul>
+                                                <li class="active"><a href="">$</a></li>
+                                                <li><a href="">€</a></li>
+                                                <li><a href="">₹</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="account">
+                                    <a href="" class="header__top-right-list-items">
+                                        <i class="fas fa-user"></i>
+                                        <ul class="account-dropdown">
+                                            <li><a class="account-dropdown-items" href="./login.html">Log In / Register</a></li>
+                                            <li><a class="account-dropdown-items" href="#">My Account</a></li>
+                                            <li><a class="account-dropdown-items" href="#">My Wishlist</a></li>
+                                            <li><a class="account-dropdown-items" href="./cart.html">My Cart</a></li>
+                                            <li><a class="account-dropdown-items" href="#">Checkout</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="cart">
+                                    <a href="" class="header__top-right-list-items">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <span class="cart-number">3</span>
+                                    </a>
+                                    <div class="cart-list">
+                                        <div class="cart-list-product">
+                                            <div class="cart-list-product-single">
+                                                <a href="" class="cart-list-product-single-img">
+                                                    <img src="./image/11.jpg" alt="">
+                                                </a>
+                                                <h3 class="cart-list-product-single-title">
+                                                    <a href="">All Mobile</a>
+                                                    <span>2 X $63</span>
+                                                </h3>
+                                                <span class="remove-btn">
+                                                    <a href="" class="data-original-title="Delete"">
+                                                        <i class="far fa-times"></i>
+                                                    </a>
+                                                </span>
+                                            </div>  
+                                            <div class="cart-list-product-single">
+                                                <a href="" class="cart-list-product-single-img">
+                                                    <img src="./image/12.jpg" alt="">
+                                                </a>
+                                                <h3 class="cart-list-product-single-title">
+                                                    <a href="">quo unde</a>
+                                                    <span>1 X $156</span>
+                                                </h3>
+                                                <span class="remove-btn">
+                                                    <a href="">
+                                                        <i class="far fa-times"></i>
+                                                    </a>
+                                                </span>
+                                            </div>  
+                                            <div class="cart-list-product-single">
+                                                <a href="" class="cart-list-product-single-img">
+                                                    <img src="./image/14.jpg" alt="">
+                                                </a>
+                                                <h3 class="cart-list-product-single-title">
+                                                    <a href="">All Mobile</a>
+                                                    <span>2 X $63</span>
+                                                </h3>
+                                                <span class="remove-btn">
+                                                    <a href="">
+                                                        <i class="far fa-times"></i>
+                                                    </a>
+                                                </span>
+                                            </div>  
+                                        </div>
+                                        <div class="cart-list-total">
+                                            <p>
+                                                Subtotal: 
+                                                <span>$723</span>
+                                            </p>
+                                        </div>
+                                        <div class="cart-list-checkout">
+                                            <a href="">CHECKOUT</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="./index.html">
+                            <img src="./image/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <nav class="header__bottom-menu">
+                            <ul class="header__bottom-menu-list">
+                                <li class="menu-dropdown">
+                                    <a class="menu-dropdown-text"  href="">
+                                        Home
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="menu-dropdown-list">
+                                        <li><a href="">Home version1</a></li>
+                                        <li><a href="">Home version2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="menu-dropdown-text" href="">
+                                        Men's fashion
+                                    </a>
+                                </li>
+                                <li class="menu-dropdown megameu-dropdown">
+                                    <a class="menu-dropdown-text" href="">
+                                        All offers
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <div class="megamenu-area">
+                                        <div class="megamenu-area-single">
+                                            <h2 class="megamenu-area-single-title">
+                                                Mobiles & Tablets
+                                            </h2>
+                                            <ul>
+                                                <li><a class="megamenu-area-single-text" href="">All Mobile</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Apple</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Samsung</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Sony</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Htc</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Vsmart</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="megamenu-area-single">
+                                            <h2 class="megamenu-area-single-title">
+                                                Top offers
+                                            </h2>
+                                            <ul>
+                                                <li><a class="megamenu-area-single-text" href="">Top 20 Laptops</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Top rated TVs</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">BestSelling cameras</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Best Watching machines</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Top rated ACs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="megamenu-area-single">
+                                            <h2 class="megamenu-area-single-title">
+                                                Printers & Inks
+                                            </h2>
+                                            <ul>
+                                                <li><a class="megamenu-area-single-text"  href="">ipsum dolor sit</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">eius maiores</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">nostrum aliquam nam</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">illum saepe volup</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">praesentium</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="megamenu-area-single">
+                                            <h2 class="megamenu-area-single-title">
+                                                All Appliances 
+                                            </h2>
+                                            <ul>
+                                                <li><a class="megamenu-area-single-text" href="">Macbook Pro</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">repellat eius debitis</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Htc</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">Micromax</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">aepe voluptas</a></li>
+                                                <li><a class="megamenu-area-single-text" href="">harum a dolor</a></li>
+                                            </ul>
+                                        </div> 
+                                        <div class="megamenu-area-single-img">
+                                            <a href="">
+                                                <img src="./image/banner.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>    
+                                    <a class="menu-dropdown-text" href="">
+                                        Men's fashion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-dropdown-text" href="">
+                                        Electronics
+                                    </a>
+                                </li>
+                                <li class="menu-dropdown">
+                                    <a class="menu-dropdown-text" href="">
+                                        Page
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="menu-dropdown-list">
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Shop full width</a></li>
+                                        <li><a href="">Shop list</a></li>
+                                        <li><a href="">Shop left sidebar</a></li>
+                                        <li><a href="">Shop right sidebar</a></li>
+                                        <li><a href="">Product details 1</a></li>
+                                        <li><a href="">Product details 2</a></li>
+                                        <li><a href="">Product details 3</a></li>
+                                        <li><a href="">Shopping cart</a></li>
+                                        <li><a href="">WishList</a></li>
+                                        <li><a href="">Log in</a></li>
+                                        <li><a href="">Checkout</a></li>
+                                        <li><a href="">Out blog</a></li>
+                                        <li><a href="">Single blog</a></li>
+                                        <li><a href="">Contact us</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="menu-dropdown-text" href="">Contact </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- header end -->
+
+     <!-- start breadcrumb-area -->
+
+     <section class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-container">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <span>/</span>
+                            <li><a href="">Log in</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- breadcrumb-area end -->
+
+    <section class="login-area">
+        <div class="container">
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-lg-6">
+                    <div class="login-area-form">
+                        <div class="form-title">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="form-fields">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="">
+                                        Email or Username 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">
+                                        Password
+                                        <span>*</span>
+                                    </label>
+                                    <input type="password" required>
+                                </div>
+                                <div class="form-action">
+                                    <a href="">Forgot your password ?</a>
+                                    <button type="button" class="btn btn-outline-warning">Log in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login-area-form">
+                        <div class="form-title">
+                            <h2>Create an account.</h2>
+                        </div>
+                        <div class="form-fields">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="">
+                                        Email or Username 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">
+                                        Password
+                                        <span>*</span>
+                                    </label>
+                                    <input type="password" required>
+                                </div>
+                                <div class="form-action">
+                                    
+                                    <button type="button" class="btn btn-outline-warning">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start footer -->
+    <section class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-top-single-widget">
+                            <h2 class="footer-top-widget-title">
+                                Contact Us
+                            </h2>
+                            <div class="footer-top-contact">
+                                <ul class="contac-details">
+                                    <li>
+                                        <i class="fas fa-map-marker"></i>
+                                        <div class="address">
+                                            795 Folsom Ave, Suite 600
+                                            <br>
+                                            San Francisco, CA 94107
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <div class="mobile-no">
+                                            (+91)09876543210
+                                            <br>
+                                            (+91)09876543210
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-envelope"></i>
+                                        <div class="email"> Support@Fastshppoing.com</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-top-single-widget">
+                            <h2 class="footer-top-widget-title">
+                                Information 
+                            </h2>
+                            <div class="footer-top-information">
+                                <ul class="footer-top-menu">
+                                    <li>
+                                        <a href="">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Delivery Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Our Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-top-single-widget">
+                            <h2 class="footer-top-widget-title">
+                                My Account 
+                            </h2>
+                            <div class="footer-top-my-account">
+                                <ul class="footer-top-menu">
+                                    <li>
+                                        <a href="">My account</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Rsgiser / Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="">My cart</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Wishlist</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-top-single-widget">
+                            <h2 class="footer-top-widget-title">
+                                Newsletter
+                            </h2>
+                            <div class="footer-top-newsletter">
+                                <p>Sign Up for Our Newsletter!</p>
+                                <form action="">
+                                    <input type="email" placeholder="Leave your email" required>
+                                    <button class="submit-btn">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright-text">
+                            <p>
+                                Copyright © 
+                                <a href=""> Fast Shopping </a>
+                                . All Rights Reserved. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="payment-list">
+                            <img src="./image/logo-pay.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+</body>
+</html>

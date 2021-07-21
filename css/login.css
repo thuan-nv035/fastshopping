@@ -1,0 +1,48 @@
+.login-area-form {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.form-fields label {
+    color: #252525;
+    display: block;
+    font-weight: 400;
+}
+
+.form-fields label > span {
+    color: #ffad1f;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.form-fields input {
+    border: 1px solid #959595;
+    color: #252525;
+    padding: 7px 20px;
+    width: 100%;
+}
+
+.form-fields > form > .form-action a {
+    color: #252525;
+    line-height: 33px;
+    text-decoration: none;
+}
+
+.login-area-form > .form-fields button {
+    float: right;
+    width: 25%;
+}

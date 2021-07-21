@@ -1,0 +1,146 @@
+.footer-top-widget-title {
+    color: #414141;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 25px;
+    padding-bottom: 6px;
+    position: relative;
+    text-align: left;
+}
+
+.footer-top-widget-title::after {
+    background: #ffad1f none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 47px
+}
+
+.footer-top-contact {
+    display: block;
+}
+
+.contac-details {
+    list-style: none;
+}
+
+.contac-details li {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.contac-details li i {
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 14px;
+    margin-right: 10px;
+    vertical-align: super;
+    margin-top: 6px;
+}
+
+.address {
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.mobile-no {
+    line-height: 24px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.address,
+.mobile-no,
+.email {
+    color: #A5A6A6;
+}
+
+.footer-top-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top-menu > li:first-child {
+    padding-top: 0;
+}
+
+.footer-top-menu > li > a {
+    color: #8f8f8f;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-top-menu > li > a:hover {
+    color: #ffad1f;
+}
+
+.footer-top-menu > li {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-top-newsletter p {
+    color: #A5A6A6;
+}
+
+.footer-top-newsletter input[type="email"] {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    color: #252525;
+    display: block;
+    padding: 8px 15px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.footer-top-newsletter button {
+    background: #414141 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    float: left;
+    margin-top: 15px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.footer-top-newsletter button:hover {
+    background-color: #ffad1f;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.copyright-text {
+    text-transform: capitalize;
+}
+
+.copyright-text p {
+    line-height: 26px;
+    margin: 0;
+}
+
+.copyright-text a {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffad1f;
+}
+
+.payment-list img {
+    float: right!important;
+}
